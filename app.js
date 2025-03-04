@@ -34,7 +34,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
       // Clear the deferredPrompt variable
       deferredPrompt = null;
       // Hide the install button
-      installButton.style.display = 'none';
+      //installButton.style.display = 'none';
     });
   });
 });
