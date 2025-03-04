@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Hide on desktop */
+  @media (min-width: 768px) {
+    body {
+      display: none;
+    }
+  }
+  
+  /* Mobile-specific styles */
+  @media (max-width: 767px) {
+    h1 {
+      color: #000;
+    }
+  }
